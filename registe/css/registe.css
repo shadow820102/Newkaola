@@ -1,0 +1,288 @@
+html,body,p,form,h1,h2,h3,h4,h5,h6,ul,ol,li,fieldset,legend{
+    margin:0;padding:0;
+}
+a{
+    text-decoration:none;
+}
+ul,ol,li{
+    list-style:none;
+}
+em,i{
+    font-style:normal;
+}
+b,h1,h2,h3,h4,h5,h6,strong{
+    font-weight:500;
+}
+img{
+    display:block;border:none;
+}
+body{
+    background:#fff;
+    overflow: hidden;
+}
+/* 头部 */
+.head{
+    height:100px;
+    width:1000px;
+    margin:0 auto;
+}
+.headLeft {
+    height:80px;
+    width:210px;
+    padding-top:20px;
+    float:left;
+    margin-right:250px;
+}
+.headLeft img{
+    height:65px;
+}
+.headRight{
+    width:504px;
+    height:100px;
+    float:left;
+}
+/* 内容 */
+.banner{
+    height:520px;
+    margin:0 auto;
+    background:#f8f8f8 url(../images/bg1.jpg) no-repeat center;
+    border-top:1px solid #e8e8ea;
+}
+.banner_warp{
+    width:920px;
+    height:520px;
+    margin:0 auto;
+    position: relative;
+}
+.dengLu{
+    width:350px;
+    height:388px;
+    border:1px solid #eaeaea;
+    background:#fff;
+    position:absolute;
+    top:48px;
+    right:0px;
+}
+.top{
+    width:270px;
+    height:52px;
+    border-bottom:1px solid #ddd;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    line-height: 52px;
+    color: #333;
+    padding:0 40px;
+}
+.text{
+    color: #e31436;
+    font-weight: bold;
+}
+.gotoLogin{
+    float: right;
+    font-size: 12px;
+    cursor: pointer;
+}
+.gotoLogin a{
+    color: #51b8f1;
+}
+.dlMid{
+    width:310px;
+    height:234px;
+    padding:40px 0 0 40px;
+    position: absolute;
+    top:47px;
+    left:0;
+    background: #fff;
+}
+.dlMid_1{
+    width:270px;
+    height:248px;
+}
+.title{
+    width: 270px;
+    padding-bottom:10px;
+    height: 14px;
+}
+.title a{
+    height: 14px;
+    width:96px;
+    padding-left: 17px;
+    line-height: 14px;
+    color:#666;
+    float:right;
+    font-size:11px;
+    background:url(../images/icon.png) no-repeat;
+    background-position:0px -15px;
+}
+.bianKuang{
+    height:34px;
+    width:268px;
+    border:1px solid #d5d5d5;
+    text-align: center;
+    line-height:34px;
+    padding-bottom:1px;
+    margin-bottom:16px;
+    border-radius: 3px;
+}
+.icon{
+    width:17px;
+    height:34px;
+    padding:0 11px;
+    float:left;
+}
+.icon_img{
+    background:url(../images/icon.png) no-repeat center;
+    background-position: -36px -34px;
+    width:17px;
+    height:18px;
+    margin-top: 8px;
+}
+.bianKuang input{
+    outline: none;
+    border:none;
+    width:180px;
+    height:30px;
+    line-height:30px;
+    padding-left:0;
+}
+.icon_bg{
+    background:url(../images/icon.png) no-repeat center;
+    background-position:-68px -34px;
+    width:17px;
+    height:18px;
+    margin-top: 8px;
+}
+.bianKuang p{
+    text-align: left;
+    font-size:10px;
+    color:red;
+}
+.button{
+    margin-top:30px;
+    height:36px;
+    width:268px;
+    border:1px solid #d5d5d5;
+    text-align: center;
+    line-height:36px;
+    background: #e31436;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom:10px;
+}
+.button a{
+    color:#fff;
+    font-size:14px;
+}
+.yanzheng{
+    height:48px;
+    width:270px;
+}
+.inputBox{
+    height: 34px;
+    width: 268px;
+    line-height: 30px;
+    border-color: #d5d5d5;
+    border-radius: 2px;
+    border: 1px solid #c5cddb;
+    margin-bottom: 16px;
+    position:relative;
+}
+.u-input{
+    height: 30px;
+    margin: 2px 0;
+    position:relative;
+    float:left;
+}
+.u-input input{
+    padding-left: 8px;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: normal;
+    border:none;
+    outline:0;
+    color: #333;
+}
+.unlogin{
+    width:270px;
+    height:16px;
+    line-height: 16px;
+}
+.huoqu{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width:97px;
+    height:34px;
+    z-index: 100;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+    text-align:center;
+}
+.huoqu a{
+    display:block;
+    height: 34px;
+    width: 96px;
+    line-height: 32px;
+    background-color: #eee;
+    color: #333;
+    border-left: #d5d5d5 solid 1px;
+    font-size:14px;
+}
+#click{
+    float: left;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+.unlogin label{
+    display: block;
+    float: left;
+    height: 16px;
+    padding-left: 8px;
+    font-size: 12px;
+    color: #999;
+    line-height: 17px;
+    cursor: pointer;
+    font-weight:550;
+}
+/* 底部 */
+.footer{
+    height:115px;
+    width:1090px;
+    margin:40px auto;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+.foot{
+    position: relative;
+    /* padding: 20px 0;
+    background: #333; */
+    line-height: 26px;
+    text-align: center;
+}
+.foot a{
+    color: #666;
+}
+.foot span{
+    font-size: 12px;
+    color: #999;
+    margin: 0 20px;
+}
+.foot img{
+    vertical-align: middle;
+    display: inline-block;
+}
+#flast img{
+    margin-top:7px;
+    height:30px;
+}
+#flast1 img{
+    height:28px;
+    margin-top:7px;
+    margin-left:10px;
+}

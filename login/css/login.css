@@ -1,0 +1,352 @@
+html,body,p,form,h1,h2,h3,h4,h5,h6,ul,ol,li,fieldset,legend{
+    margin:0;padding:0;
+}
+a{
+    text-decoration:none;
+}
+ul,ol,li{
+    list-style:none;
+}
+em,i{
+    font-style:normal;
+}
+b,h1,h2,h3,h4,h5,h6,strong{
+    font-weight:500;
+}
+img{
+    display:block;border:none;
+}
+body{
+    background:#fff;
+    overflow: hidden;
+}
+/* 头部 */
+.head{
+    height:100px;
+    width:1000px;
+    margin:0 auto;
+}
+.headLeft {
+    height:80px;
+    width:210px;
+    padding-top:20px;
+    float:left;
+    margin-right:250px;
+}
+.headLeft img{
+    height:65px;
+}
+.headRight{
+    width:504px;
+    height:100px;
+    float:left;
+}
+/* 内容 */
+.banner{
+    height:520px;
+    margin:0 auto;
+    background:#f8f8f8 url(../images/bg1.jpg) no-repeat center;
+    border-top:1px solid #e8e8ea;
+}
+.banner_warp{
+    width:1000px;
+    height:520px;
+    margin:0 auto;
+    position: relative;
+}
+.dengLu{
+    width:350px;
+    height:348px;
+    border:1px solid #eaeaea;
+    background:#fff;
+    position:absolute;
+    top:48px;
+    right:4px;
+}
+.dlTop{
+    width:350px;
+    height:52px;
+    border-bottom:1px solid #ddd;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    line-height: 52px;
+    color: #333;
+}
+.dlTop div{
+    float: left;
+    width: 175px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+.dlTop span{
+    position: absolute;
+    top: 17px;
+    right: 175px;
+    width: 0px;
+    height: 20px;
+    border-right:1px solid #ddd;
+}
+.dlMid{
+    width:310px;
+    height:234px;
+    padding:20px 0 0 40px;
+    /* display:none; */
+    position: absolute;
+    top:47px;
+    left:0;
+    background: #fff;
+}
+.dlMi2{
+    width:310px;
+    height:210px;
+    padding:20px 0 0 40px;
+}
+.dlMid_1{
+    width:270px;
+    height:248px;
+}
+.dlMi2 .dlMid_1{
+    height:234px;
+}
+.title{
+    width: 270px;
+    padding-bottom:10px;
+    height: 14px;
+}
+.title a{
+    height: 14px;
+    width:96px;
+    padding-left: 17px;
+    line-height: 14px;
+    color:#666;
+    float:right;
+    font-size:11px;
+    background:url(../images/icon.png) no-repeat;
+    background-position:0px -15px;
+}
+.bianKuang{
+    height:34px;
+    width:268px;
+    border:1px solid #d5d5d5;
+    text-align: center;
+    line-height:34px;
+    padding-bottom:1px;
+    margin-bottom:16px;
+    border-radius: 3px;
+}
+.icon{
+    width:17px;
+    height:34px;
+    padding:0 11px;
+    float:left;
+}
+.icon_img{
+    background:url(../images/icon.png) no-repeat center;
+    background-position: -36px -34px;
+    width:17px;
+    height:18px;
+    margin-top: 8px;
+}
+.bianKuang input{
+    outline: none;
+    border:none;
+    width:180px;
+    height:30px;
+    line-height:30px;
+    padding-left:0;
+}
+.icon_bg{
+    background:url(../images/icon.png) no-repeat center;
+    background-position:-68px -34px;
+    width:17px;
+    height:18px;
+    margin-top: 8px;
+}
+#button,#button2{
+    margin-top:30px;
+    height:36px;
+    width:268px;
+    border:1px solid #d5d5d5;
+    text-align: center;
+    line-height:36px;
+    background: #e31436;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom:10px;
+}
+#button a{
+    color:#fff;
+    font-size:14px;
+}
+#button2 a{
+    color:#fff;
+    font-size:14px;
+}
+.unlogin{
+    width:270px;
+    height:16px;
+    line-height: 16px;
+}
+.unloginLeft{
+    width: 104px;
+    float: left;
+    margin-right: 8px;
+}
+#click{
+    float: left;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+.unloginLeft label{
+    display: block;
+    float: left;
+    height: 16px;
+    padding-left: 8px;
+    font-size: 12px;
+    color: #999;
+    line-height: 17px;
+    cursor: pointer;
+}
+.unlogin a{
+    float: right;
+    height: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #999;
+    font-size: 12px;
+    line-height: 16px;
+}
+.dlBottom{
+    /* width:350px;
+    height:40px;
+    background: #f8f8f8;
+    border-top:1px solid #dddddd; */
+    width: 270px;
+    height: 20px;
+    padding: 10px 40px;
+    border-top: 1px solid #ddd;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    position: absolute;
+    bottom:0;
+}
+.thirdLogin{
+    float: left;
+    width: 160px;
+}
+.thirdLogin li{
+    position: relative;
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+.thirdLogin a{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+}
+.w-icon{
+    background: url(../images/icon-2.png) no-repeat;
+    background-position: -760px -401px;
+}
+.thirdLogin span{
+    display: none;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+.w-icon-1{
+    background: url(../images/icon-2.png) no-repeat;
+    background-position: -824px -436px;
+}
+.z-icon{
+    background: url(../images/icon-2.png) no-repeat;
+    background-position: -792px -401px;
+}
+.z-icon-1{
+    background: url(../images/icon-2.png) no-repeat;
+    background-position: -824px -436px;
+}
+.wb-icon{
+    background: url(../images/icon-2.png) no-repeat;
+    background-position: -824px -401px;
+}
+.wb-icon-1{
+    background: url(../images/icon-2.png) no-repeat;
+    background-position: -824px -436px;
+}
+.q-icon{
+    background: url(../images/icon-2.png) no-repeat;
+    background-position: -856px -401px;
+}
+.q-icon-1{
+    background: url(../images/icon-2.png) no-repeat;
+    background-position: -824px -436px;
+}
+.thirdLogin li:hover a{
+    display:none;
+}
+.thirdLogin li:hover span{
+    display:block;
+}
+.fast{
+    width: 105px;
+    color: #e31436;
+    line-height: 22px;
+    cursor: pointer;
+    font-size:14px;
+    height:22px;
+}
+.fast span{
+    display:inline-block;
+    margin-left: 5px;
+    height: 22px;
+    width:14px;
+    background: url(../images/icon-2.png) no-repeat;
+    background-position: -899px -402px;
+}
+/* 底部 */
+.footer{
+    height:115px;
+    width:1090px;
+    margin:40px auto;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+.foot{
+    position: relative;
+    /* padding: 20px 0;
+    background: #333; */
+    line-height: 26px;
+    text-align: center;
+}
+.foot a{
+    color: #666;
+}
+.foot span{
+    font-size: 12px;
+    color: #999;
+    margin: 0 20px;
+}
+.foot img{
+    vertical-align: middle;
+    display: inline-block;
+}
+#flast img{
+    margin-top:7px;
+    height:30px;
+}
+#flast1 img{
+    height:28px;
+    margin-top:7px;
+    margin-left:10px;
+}
